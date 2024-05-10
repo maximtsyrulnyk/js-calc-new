@@ -64,6 +64,7 @@ class Calc {
 
     static init = () => {
         this.#load();
+        this.#output()
         console.log('Calc is init');
     }
 }
